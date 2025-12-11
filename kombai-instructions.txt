@@ -1,0 +1,2 @@
+# Custom Router
+React Router v6 declarative mode
