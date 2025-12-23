@@ -23,8 +23,9 @@ Write-Host "✅ Deployment complete!" -ForegroundColor Green
 Write-Host "🌐 Your site should be live now. Check the URL provided above." -ForegroundColor Green
 Write-Host ""
 Write-Host "📝 Next steps:" -ForegroundColor Yellow
-Write-Host "1. Configure environment variables in Netlify Dashboard"
-Write-Host "2. Set up custom domain (optional)"
-Write-Host "3. Submit to Google Search Console"
+Write-Host "1. Configure environment variables in Netlify Dashboard (JWT_SECRET)"
+Write-Host "2. Set up Neon database via Netlify Integrations (optional)"
+Write-Host "3. Set up custom domain (optional)"
+Write-Host "4. Submit to Google Search Console"
 Write-Host ""
 Write-Host "For detailed instructions, see DEPLOYMENT.md" -ForegroundColor Cyan

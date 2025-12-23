@@ -8,6 +8,7 @@ const EnvSchema = z.object({
   // Database
   MONGODB_URI: z.string().url().optional(),
   MONGODB_DB: z.string().default("fusion-starter"),
+  NETLIFY_DATABASE_URL: z.string().url().optional(),
 
   // Admin auth
   ADMIN_PASSWORD: z.string().min(1).default("change-me"),

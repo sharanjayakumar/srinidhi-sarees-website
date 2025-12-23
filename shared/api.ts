@@ -2,6 +2,13 @@ export interface DemoResponse {
   message: string;
 }
 
+export interface PostResponse {
+  id: number;
+  title: string;
+  content: string;
+  created_at: string;
+}
+
 export interface CollectionItem {
   id: string;
   name: string;
